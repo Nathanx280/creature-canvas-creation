@@ -117,6 +117,16 @@ export const PAINTING_TARGETS: PaintingTarget[] = [
   { name: "Achatina", suffix: "_Achatina_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
   { name: "Arthropluera", suffix: "_Arthro_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
   { name: "Dimetrodon", suffix: "_Dimetro_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
+
+  // Tek Dinos
+  { name: "Tek Rex", suffix: "_BionicRex_Character_BP_C", width: 256, height: 256, category: "carnivores" },
+  { name: "Tek Raptor", suffix: "_BionicRaptor_Character_BP_C", width: 256, height: 256, category: "carnivores" },
+  { name: "Tek Giganotosaurus", suffix: "_BionicGigant_Character_BP_C", width: 256, height: 256, category: "carnivores" },
+  { name: "Tek Stego", suffix: "_BionicStego_Character_BP_C", width: 256, height: 256, category: "herbivores" },
+  { name: "Tek Trike", suffix: "_BionicTrike_Character_BP_C", width: 256, height: 256, category: "herbivores" },
+  { name: "Tek Parasaur", suffix: "_BionicPara_Character_BP_C", width: 256, height: 256, category: "herbivores" },
+  { name: "Tek Quetzal", suffix: "_BionicQuetz_Character_BP_C", width: 256, height: 256, category: "flyers" },
+  { name: "Tek Mosasaurus", suffix: "_BionicMosa_Character_BP_C", width: 256, height: 256, category: "aquatic" },
 ];
 
 export const CATEGORY_LABELS: Record<TargetCategory, string> = {
