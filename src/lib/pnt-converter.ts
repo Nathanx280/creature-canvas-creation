@@ -54,11 +54,71 @@ export const PAINTING_TARGETS: PaintingTarget[] = [
   { name: "Shield", suffix: "_Shield_C", width: 128, height: 128, category: "structures" },
   { name: "Motorboat", suffix: "_Motorboat_C", width: 256, height: 256, category: "structures" },
 
-  // Human Characters
+  // ===== Signs & Canvases =====
+  { name: "Painting Canvas", suffix: "_PaintingCanvas_C", width: 256, height: 256, category: "signs" },
+  { name: "War Map", suffix: "_WarMap_C", width: 256, height: 256, category: "signs" },
+  { name: "Wooden Sign", suffix: "_Sign_Small_Wood_C", width: 128, height: 128, category: "signs" },
+  { name: "Wooden Wall Sign", suffix: "_Sign_Wall_Wood_C", width: 256, height: 128, category: "signs" },
+  { name: "Wooden Billboard", suffix: "_Sign_Large_Wood_C", width: 256, height: 256, category: "signs" },
+  { name: "Metal Sign", suffix: "_Sign_Small_Metal_C", width: 128, height: 128, category: "signs" },
+  { name: "Metal Wall Sign", suffix: "_Sign_Wall_Metal_C", width: 256, height: 128, category: "signs" },
+  { name: "Metal Billboard", suffix: "_Sign_Large_Metal_C", width: 256, height: 256, category: "signs" },
+  { name: "Stone Sign", suffix: "_Sign_Small_Stone_C", width: 128, height: 128, category: "signs" },
+  { name: "Adobe Sign", suffix: "_Sign_Small_Adobe_C", width: 128, height: 128, category: "signs" },
+  { name: "Tek Sign", suffix: "_Sign_Small_Tek_C", width: 128, height: 128, category: "signs" },
+
+  // ===== Structures & Items =====
+  { name: "Single Flag", suffix: "_Flag_C", width: 256, height: 256, category: "structures" },
+  { name: "Multi Panel Flag", suffix: "_FlagMultiPanel_C", width: 256, height: 384, category: "structures" },
+  { name: "Shag Rug", suffix: "_Rug_C", width: 256, height: 256, category: "structures" },
+  { name: "Bear Rug", suffix: "_BearRug_C", width: 256, height: 256, category: "structures" },
+  { name: "Spotlight", suffix: "_Spotlight_C", width: 256, height: 256, category: "structures" },
+  { name: "Raft", suffix: "_Raft_C", width: 256, height: 256, category: "structures" },
+  { name: "Motorboat", suffix: "_Motorboat_C", width: 256, height: 256, category: "structures" },
+  { name: "Catapult", suffix: "_Catapult_C", width: 256, height: 256, category: "structures" },
+  { name: "Ballista", suffix: "_Ballista_C", width: 256, height: 256, category: "structures" },
+  { name: "Cannon", suffix: "_Cannon_C", width: 256, height: 256, category: "structures" },
+  { name: "Stone Pillar", suffix: "_Pillar_Stone_C", width: 128, height: 256, category: "structures" },
+
+  // ===== Human Characters =====
   { name: "Human (Male)", suffix: "_PlayerPawnTest_Male_C", width: 512, height: 512, category: "humans" },
   { name: "Human (Female)", suffix: "_PlayerPawnTest_Female_C", width: 512, height: 512, category: "humans" },
 
-  // Carnivores
+  // ===== Armor (paintable) =====
+  { name: "Cloth Shirt", suffix: "_ClothShirt_C", width: 256, height: 256, category: "armor" },
+  { name: "Cloth Pants", suffix: "_ClothPants_C", width: 256, height: 256, category: "armor" },
+  { name: "Cloth Boots", suffix: "_ClothBoots_C", width: 256, height: 256, category: "armor" },
+  { name: "Cloth Gloves", suffix: "_ClothGloves_C", width: 256, height: 256, category: "armor" },
+  { name: "Cloth Hat", suffix: "_ClothHat_C", width: 256, height: 256, category: "armor" },
+  { name: "Hide Shirt", suffix: "_HideShirt_C", width: 256, height: 256, category: "armor" },
+  { name: "Hide Pants", suffix: "_HidePants_C", width: 256, height: 256, category: "armor" },
+  { name: "Hide Boots", suffix: "_HideBoots_C", width: 256, height: 256, category: "armor" },
+  { name: "Hide Gloves", suffix: "_HideGloves_C", width: 256, height: 256, category: "armor" },
+  { name: "Hide Hat", suffix: "_HideHat_C", width: 256, height: 256, category: "armor" },
+  { name: "Fur Chestpiece", suffix: "_FurShirt_C", width: 256, height: 256, category: "armor" },
+  { name: "Fur Leggings", suffix: "_FurPants_C", width: 256, height: 256, category: "armor" },
+  { name: "Fur Boots", suffix: "_FurBoots_C", width: 256, height: 256, category: "armor" },
+  { name: "Chitin Chestpiece", suffix: "_ChitinShirt_C", width: 256, height: 256, category: "armor" },
+  { name: "Chitin Leggings", suffix: "_ChitinPants_C", width: 256, height: 256, category: "armor" },
+  { name: "Chitin Helmet", suffix: "_ChitinHat_C", width: 256, height: 256, category: "armor" },
+  { name: "Flak Chestpiece", suffix: "_MetalShirt_C", width: 256, height: 256, category: "armor" },
+  { name: "Flak Leggings", suffix: "_MetalPants_C", width: 256, height: 256, category: "armor" },
+  { name: "Flak Helmet", suffix: "_MetalHat_C", width: 256, height: 256, category: "armor" },
+  { name: "Riot Shield", suffix: "_RiotShield_C", width: 128, height: 128, category: "armor" },
+  { name: "Wooden Shield", suffix: "_Shield_C", width: 128, height: 128, category: "armor" },
+  { name: "Metal Shield", suffix: "_MetalShield_C", width: 128, height: 128, category: "armor" },
+
+  // ===== Saddles =====
+  { name: "Rex Saddle", suffix: "_Saddle_Rex_C", width: 256, height: 256, category: "saddles" },
+  { name: "Trike Saddle", suffix: "_Saddle_Trike_C", width: 256, height: 256, category: "saddles" },
+  { name: "Stego Saddle", suffix: "_Saddle_Stego_C", width: 256, height: 256, category: "saddles" },
+  { name: "Bronto Platform Saddle", suffix: "_SaddlePlatform_Sauropod_C", width: 256, height: 256, category: "saddles" },
+  { name: "Quetz Platform Saddle", suffix: "_SaddlePlatform_Quetz_C", width: 256, height: 256, category: "saddles" },
+  { name: "Paracer Platform Saddle", suffix: "_SaddlePlatform_Paracer_C", width: 256, height: 256, category: "saddles" },
+  { name: "Plesi Platform Saddle", suffix: "_SaddlePlatform_Plesiosaur_C", width: 256, height: 256, category: "saddles" },
+  { name: "Mosa Platform Saddle", suffix: "_SaddlePlatform_Mosa_C", width: 256, height: 256, category: "saddles" },
+
+  // ===== Carnivores =====
   { name: "Rex", suffix: "_Rex_Character_BP_C", width: 256, height: 256, category: "carnivores" },
   { name: "Raptor", suffix: "_Raptor_Character_BP_C", width: 256, height: 256, category: "carnivores" },
   { name: "Spino", suffix: "_Spino_Character_BP_C", width: 256, height: 256, category: "carnivores" },
@@ -73,8 +133,17 @@ export const PAINTING_TARGETS: PaintingTarget[] = [
   { name: "Dire Wolf", suffix: "_Direwolf_Character_BP_C", width: 256, height: 256, category: "carnivores" },
   { name: "Thylacoleo", suffix: "_Thylacoleo_Character_BP_C", width: 256, height: 256, category: "carnivores" },
   { name: "Megalosaurus", suffix: "_Megalosaurus_Character_BP_C", width: 256, height: 256, category: "carnivores" },
+  { name: "Cave Lion", suffix: "_Cave_Lion_Character_BP_C", width: 256, height: 256, category: "carnivores" },
+  { name: "Hyaenodon", suffix: "_Hyaenodon_Character_BP_C", width: 256, height: 256, category: "carnivores" },
+  { name: "Megalania", suffix: "_Megalania_Character_BP_C", width: 256, height: 256, category: "carnivores" },
+  { name: "Kaprosuchus", suffix: "_Kaprosuchus_Character_BP_C", width: 256, height: 256, category: "carnivores" },
+  { name: "Sarco", suffix: "_Sarco_Character_BP_C", width: 256, height: 256, category: "carnivores" },
+  { name: "Purlovia", suffix: "_Purlovia_Character_BP_C", width: 256, height: 256, category: "carnivores" },
+  { name: "Troodon", suffix: "_Troodon_Character_BP_C", width: 256, height: 256, category: "carnivores" },
+  { name: "Microraptor", suffix: "_Microraptor_Character_BP_C", width: 256, height: 256, category: "carnivores" },
+  { name: "Pegomastax", suffix: "_Pegomastax_Character_BP_C", width: 256, height: 256, category: "carnivores" },
 
-  // Herbivores
+  // ===== Herbivores =====
   { name: "Trike", suffix: "_Trike_Character_BP_C", width: 256, height: 256, category: "herbivores" },
   { name: "Stego", suffix: "_Stego_Character_BP_C", width: 256, height: 256, category: "herbivores" },
   { name: "Bronto", suffix: "_Sauropod_Character_BP_C", width: 256, height: 256, category: "herbivores" },
@@ -92,8 +161,17 @@ export const PAINTING_TARGETS: PaintingTarget[] = [
   { name: "Carbonemys", suffix: "_Turtle_Character_BP_C", width: 256, height: 256, category: "herbivores" },
   { name: "Castoroides", suffix: "_Beaver_Character_BP_C", width: 256, height: 256, category: "herbivores" },
   { name: "Chalicotherium", suffix: "_Chalico_Character_BP_C", width: 256, height: 256, category: "herbivores" },
+  { name: "Paracer", suffix: "_Paracer_Character_BP_C", width: 256, height: 256, category: "herbivores" },
+  { name: "Megaloceros", suffix: "_Stag_Character_BP_C", width: 256, height: 256, category: "herbivores" },
+  { name: "Ovis", suffix: "_Sheep_Character_BP_C", width: 256, height: 256, category: "herbivores" },
+  { name: "Procoptodon", suffix: "_Procoptodon_Character_BP_C", width: 256, height: 256, category: "herbivores" },
+  { name: "Mesopithecus", suffix: "_Monkey_Character_BP_C", width: 256, height: 256, category: "herbivores" },
+  { name: "Gigantopithecus", suffix: "_Bigfoot_Character_BP_C", width: 256, height: 256, category: "herbivores" },
+  { name: "Gallimimus", suffix: "_Galli_Character_BP_C", width: 256, height: 256, category: "herbivores" },
+  { name: "Lystrosaurus", suffix: "_Lystro_Character_BP_C", width: 256, height: 256, category: "herbivores" },
+  { name: "Woolly Rhino", suffix: "_Rhino_Character_BP_C", width: 256, height: 256, category: "herbivores" },
 
-  // Flyers
+  // ===== Flyers =====
   { name: "Pteranodon", suffix: "_Ptero_Character_BP_C", width: 256, height: 256, category: "flyers" },
   { name: "Argentavis", suffix: "_Argent_Character_BP_C", width: 256, height: 256, category: "flyers" },
   { name: "Quetzal", suffix: "_Quetz_Character_BP_C", width: 256, height: 256, category: "flyers" },
@@ -104,10 +182,15 @@ export const PAINTING_TARGETS: PaintingTarget[] = [
   { name: "Wyvern (Fire)", suffix: "_Wyvern_Character_BP_Fire_C", width: 256, height: 256, category: "flyers" },
   { name: "Wyvern (Lightning)", suffix: "_Wyvern_Character_BP_Lightning_C", width: 256, height: 256, category: "flyers" },
   { name: "Wyvern (Poison)", suffix: "_Wyvern_Character_BP_Poison_C", width: 256, height: 256, category: "flyers" },
+  { name: "Wyvern (Ice)", suffix: "_Wyvern_Character_BP_Ice_C", width: 256, height: 256, category: "flyers" },
+  { name: "Crystal Wyvern (Blood)", suffix: "_CrystalWyvern_Character_BP_Blood_C", width: 256, height: 256, category: "flyers" },
+  { name: "Crystal Wyvern (Tropical)", suffix: "_CrystalWyvern_Character_BP_WS_C", width: 256, height: 256, category: "flyers" },
+  { name: "Crystal Wyvern (Ember)", suffix: "_CrystalWyvern_Character_BP_Ember_C", width: 256, height: 256, category: "flyers" },
   { name: "Dimorphodon", suffix: "_Dimorph_Character_BP_C", width: 256, height: 256, category: "flyers" },
   { name: "Archaeopteryx", suffix: "_Archa_Character_BP_C", width: 256, height: 256, category: "flyers" },
+  { name: "Tropeognathus", suffix: "_Tropeognathus_Character_BP_C", width: 256, height: 256, category: "flyers" },
 
-  // Aquatic
+  // ===== Aquatic =====
   { name: "Megalodon", suffix: "_Megalodon_Character_BP_C", width: 256, height: 256, category: "aquatic" },
   { name: "Mosasaurus", suffix: "_Mosa_Character_BP_C", width: 256, height: 256, category: "aquatic" },
   { name: "Plesiosaur", suffix: "_Plesiosaur_Character_BP_C", width: 256, height: 256, category: "aquatic" },
@@ -117,49 +200,129 @@ export const PAINTING_TARGETS: PaintingTarget[] = [
   { name: "Dunkleosteus", suffix: "_Dunkleo_Character_BP_C", width: 256, height: 256, category: "aquatic" },
   { name: "Angler", suffix: "_Angler_Character_BP_C", width: 256, height: 256, category: "aquatic" },
   { name: "Beelzebufo", suffix: "_Toad_Character_BP_C", width: 256, height: 256, category: "aquatic" },
+  { name: "Manta", suffix: "_Manta_Character_BP_C", width: 256, height: 256, category: "aquatic" },
+  { name: "Sabertooth Salmon", suffix: "_Salmon_Character_BP_C", width: 256, height: 256, category: "aquatic" },
+  { name: "Coelacanth", suffix: "_Coel_Character_BP_C", width: 256, height: 256, category: "aquatic" },
+  { name: "Piranha", suffix: "_Piranha_Character_BP_C", width: 256, height: 256, category: "aquatic" },
+  { name: "Electrophorus", suffix: "_Eel_Character_BP_C", width: 256, height: 256, category: "aquatic" },
+  { name: "Trilobite", suffix: "_Trilobite_Character_BP_C", width: 256, height: 256, category: "aquatic" },
 
-  // Misc Creatures
+  // ===== Misc Creatures =====
   { name: "Dodo", suffix: "_Dodo_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
   { name: "Compy", suffix: "_Compy_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
   { name: "Jerboa", suffix: "_Jerboa_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
   { name: "Otter", suffix: "_Otter_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
-  { name: "Giant Bee", suffix: "_Bee_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
   { name: "Kairuku (Penguin)", suffix: "_Kairuku_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
-  { name: "Mesopithecus", suffix: "_Monkey_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
   { name: "Terror Bird", suffix: "_TerrorBird_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
   { name: "Daeodon", suffix: "_Daeodon_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
-  { name: "Rock Drake", suffix: "_RockDrake_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
-  { name: "Managarmr", suffix: "_IceJumper_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
-  { name: "Gacha", suffix: "_Gacha_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
-  { name: "Velonasaur", suffix: "_Spindles_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
   { name: "Achatina", suffix: "_Achatina_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
-  { name: "Arthropluera", suffix: "_Arthro_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
   { name: "Dimetrodon", suffix: "_Dimetro_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
+  { name: "Diplocaulus", suffix: "_Diplocaulus_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
+  { name: "Hesperornis", suffix: "_Hesperornis_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
+  { name: "Ichthyornis", suffix: "_Ichthyornis_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
+  { name: "Vulture", suffix: "_Vulture_Character_BP_C", width: 256, height: 256, category: "misc_creatures" },
 
-  // Tek Dinos
-  { name: "Tek Rex", suffix: "_BionicRex_Character_BP_C", width: 256, height: 256, category: "carnivores" },
-  { name: "Tek Raptor", suffix: "_BionicRaptor_Character_BP_C", width: 256, height: 256, category: "carnivores" },
-  { name: "Tek Giganotosaurus", suffix: "_BionicGigant_Character_BP_C", width: 256, height: 256, category: "carnivores" },
-  { name: "Tek Stego", suffix: "_BionicStego_Character_BP_C", width: 256, height: 256, category: "herbivores" },
-  { name: "Tek Trike", suffix: "_BionicTrike_Character_BP_C", width: 256, height: 256, category: "herbivores" },
-  { name: "Tek Parasaur", suffix: "_BionicPara_Character_BP_C", width: 256, height: 256, category: "herbivores" },
-  { name: "Tek Quetzal", suffix: "_BionicQuetz_Character_BP_C", width: 256, height: 256, category: "flyers" },
-  { name: "Tek Mosasaurus", suffix: "_BionicMosa_Character_BP_C", width: 256, height: 256, category: "aquatic" },
+  // ===== Invertebrates / Insects =====
+  { name: "Giant Bee", suffix: "_Bee_Character_BP_C", width: 256, height: 256, category: "invertebrates" },
+  { name: "Arthropluera", suffix: "_Arthro_Character_BP_C", width: 256, height: 256, category: "invertebrates" },
+  { name: "Araneo (Spider)", suffix: "_SpiderS_Character_BP_C", width: 256, height: 256, category: "invertebrates" },
+  { name: "Pulmonoscorpius", suffix: "_Scorpion_Character_BP_C", width: 256, height: 256, category: "invertebrates" },
+  { name: "Onyc (Bat)", suffix: "_Bat_Character_BP_C", width: 256, height: 256, category: "invertebrates" },
+  { name: "Meganeura", suffix: "_Dragonfly_Character_BP_C", width: 256, height: 256, category: "invertebrates" },
+  { name: "Titanomyrma (Soldier)", suffix: "_Ant_Character_BP_C", width: 256, height: 256, category: "invertebrates" },
+  { name: "Mantis", suffix: "_Mantis_Character_BP_C", width: 256, height: 256, category: "invertebrates" },
+
+  // ===== Tek Variants =====
+  { name: "Tek Rex", suffix: "_BionicRex_Character_BP_C", width: 256, height: 256, category: "tek" },
+  { name: "Tek Raptor", suffix: "_BionicRaptor_Character_BP_C", width: 256, height: 256, category: "tek" },
+  { name: "Tek Giganotosaurus", suffix: "_BionicGigant_Character_BP_C", width: 256, height: 256, category: "tek" },
+  { name: "Tek Stego", suffix: "_BionicStego_Character_BP_C", width: 256, height: 256, category: "tek" },
+  { name: "Tek Trike", suffix: "_BionicTrike_Character_BP_C", width: 256, height: 256, category: "tek" },
+  { name: "Tek Parasaur", suffix: "_BionicPara_Character_BP_C", width: 256, height: 256, category: "tek" },
+  { name: "Tek Quetzal", suffix: "_BionicQuetz_Character_BP_C", width: 256, height: 256, category: "tek" },
+  { name: "Tek Mosasaurus", suffix: "_BionicMosa_Character_BP_C", width: 256, height: 256, category: "tek" },
+  { name: "Enforcer", suffix: "_Enforcer_Character_BP_C", width: 256, height: 256, category: "tek" },
+  { name: "Mek", suffix: "_Mek_Character_BP_C", width: 256, height: 256, category: "tek" },
+  { name: "Scout", suffix: "_Scout_Character_BP_C", width: 256, height: 256, category: "tek" },
+  { name: "Tek Helmet", suffix: "_TekHat_C", width: 256, height: 256, category: "tek" },
+  { name: "Tek Chestpiece", suffix: "_TekShirt_C", width: 256, height: 256, category: "tek" },
+  { name: "Tek Leggings", suffix: "_TekPants_C", width: 256, height: 256, category: "tek" },
+  { name: "Tek Boots", suffix: "_TekBoots_C", width: 256, height: 256, category: "tek" },
+  { name: "Tek Gauntlets", suffix: "_TekGloves_C", width: 256, height: 256, category: "tek" },
+
+  // ===== Aberration =====
+  { name: "Rock Drake", suffix: "_RockDrake_Character_BP_C", width: 256, height: 256, category: "aberration" },
+  { name: "Karkinos", suffix: "_Crab_Character_BP_C", width: 256, height: 256, category: "aberration" },
+  { name: "Basilisk", suffix: "_Basilisk_Character_BP_C", width: 256, height: 256, category: "aberration" },
+  { name: "Reaper King", suffix: "_Xenomorph_Character_BP_Male_C", width: 256, height: 256, category: "aberration" },
+  { name: "Ravager", suffix: "_CaveWolf_Character_BP_C", width: 256, height: 256, category: "aberration" },
+  { name: "Roll Rat", suffix: "_MoleRat_Character_BP_C", width: 256, height: 256, category: "aberration" },
+  { name: "Bulbdog", suffix: "_LanternPug_Character_BP_C", width: 256, height: 256, category: "aberration" },
+  { name: "Featherlight", suffix: "_LanternBird_Character_BP_C", width: 256, height: 256, category: "aberration" },
+  { name: "Glowtail", suffix: "_LanternLizard_Character_BP_C", width: 256, height: 256, category: "aberration" },
+  { name: "Shinehorn", suffix: "_LanternGoat_Character_BP_C", width: 256, height: 256, category: "aberration" },
+  { name: "Hazard Suit Hat", suffix: "_HazardSuitHat_C", width: 256, height: 256, category: "aberration" },
+  { name: "Hazard Suit Shirt", suffix: "_HazardSuitShirt_C", width: 256, height: 256, category: "aberration" },
+
+  // ===== Extinction =====
+  { name: "Managarmr", suffix: "_IceJumper_Character_BP_C", width: 256, height: 256, category: "extinction" },
+  { name: "Gacha", suffix: "_Gacha_Character_BP_C", width: 256, height: 256, category: "extinction" },
+  { name: "Velonasaur", suffix: "_Spindles_Character_BP_C", width: 256, height: 256, category: "extinction" },
+  { name: "Gasbags", suffix: "_Gasbags_Character_BP_C", width: 256, height: 256, category: "extinction" },
+  { name: "Snow Owl (EX)", suffix: "_Owl_Character_BP_EX_C", width: 256, height: 256, category: "extinction" },
+
+  // ===== Genesis =====
+  { name: "Magmasaur", suffix: "_Cherufe_Character_BP_C", width: 256, height: 256, category: "genesis" },
+  { name: "Astrocetus", suffix: "_SpaceWhale_Character_BP_C", width: 256, height: 256, category: "genesis" },
+  { name: "Astrodelphis", suffix: "_SpaceDolphin_Character_BP_C", width: 256, height: 256, category: "genesis" },
+  { name: "Bloodstalker", suffix: "_BogSpider_Character_BP_C", width: 256, height: 256, category: "genesis" },
+  { name: "Megachelon", suffix: "_GiantTurtle_Character_BP_C", width: 256, height: 256, category: "genesis" },
+  { name: "Ferox (Small)", suffix: "_Shapeshifter_Small_Character_BP_C", width: 256, height: 256, category: "genesis" },
+  { name: "Noglin", suffix: "_BrainSlug_Character_BP_C", width: 256, height: 256, category: "genesis" },
+  { name: "Stryder", suffix: "_TekStrider_Character_BP_C", width: 256, height: 256, category: "genesis" },
+  { name: "Maewing", suffix: "_Platypus_Character_BP_C", width: 256, height: 256, category: "genesis" },
+
+  // ===== Scorched Earth =====
+  { name: "Rock Elemental", suffix: "_RockGolem_Character_BP_C", width: 256, height: 256, category: "scorched" },
+  { name: "Thorny Dragon", suffix: "_SpineyLizard_Character_BP_C", width: 256, height: 256, category: "scorched" },
+  { name: "Morellatops", suffix: "_Camelsaurus_Character_BP_C", width: 256, height: 256, category: "scorched" },
+  { name: "Jug Bug", suffix: "_JugBug_Character_BP_Oil_C", width: 256, height: 256, category: "scorched" },
+  { name: "Lymantria", suffix: "_Moth_Character_BP_C", width: 256, height: 256, category: "scorched" },
+  { name: "Mantis (SE)", suffix: "_Mantis_Character_BP_SE_C", width: 256, height: 256, category: "scorched" },
+  { name: "Desert Cloth Hat", suffix: "_DesertClothHat_C", width: 256, height: 256, category: "scorched" },
+  { name: "Desert Cloth Shirt", suffix: "_DesertClothShirt_C", width: 256, height: 256, category: "scorched" },
+
+  // ===== Ragnarok =====
+  { name: "Iceworm Queen", suffix: "_Iceworm_Character_BP_C", width: 256, height: 256, category: "ragnarok" },
+  { name: "Lava Elemental", suffix: "_LavaGolem_Character_BP_C", width: 256, height: 256, category: "ragnarok" },
+  { name: "Polar Bear", suffix: "_PolarBear_Character_BP_C", width: 256, height: 256, category: "ragnarok" },
 ];
 
 export const CATEGORY_LABELS: Record<TargetCategory, string> = {
   signs: "🖼️ Signs & Canvases",
   structures: "🏗️ Structures & Items",
   humans: "🧑 Human Characters",
+  armor: "🛡️ Armor & Shields",
+  saddles: "🪑 Saddles",
   carnivores: "🦖 Carnivores",
   herbivores: "🦕 Herbivores",
   flyers: "🦅 Flyers",
   aquatic: "🐋 Aquatic",
   misc_creatures: "🐾 Misc Creatures",
+  invertebrates: "🕷️ Invertebrates",
+  tek: "⚡ Tek",
+  weapons: "⚔️ Weapons",
+  aberration: "🌌 Aberration",
+  extinction: "☄️ Extinction",
+  genesis: "🌀 Genesis",
+  scorched: "🏜️ Scorched Earth",
+  ragnarok: "🗻 Ragnarok",
 };
 
 export const CATEGORY_ORDER: TargetCategory[] = [
-  "signs", "structures", "humans", "carnivores", "herbivores", "flyers", "aquatic", "misc_creatures"
+  "signs", "structures", "humans", "armor", "saddles",
+  "carnivores", "herbivores", "flyers", "aquatic", "misc_creatures", "invertebrates",
+  "tek", "weapons", "aberration", "extinction", "genesis", "scorched", "ragnarok",
 ];
 
 export function getTargetsByCategory(): Record<TargetCategory, PaintingTarget[]> {
