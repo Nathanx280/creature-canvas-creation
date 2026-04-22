@@ -37,7 +37,7 @@ export interface PaintingTarget {
 
 // ARK painting target types with their resolutions
 export const PAINTING_TARGETS: PaintingTarget[] = [
-  // Signs & Canvases
+  // Signs & Canvases (DO NOT MODIFY — confirmed working in-game)
   { name: "Painting Canvas", suffix: "_Sign_Large_Metal_C", width: 256, height: 256, category: "signs" },
   { name: "War Map", suffix: "_WarMap_C", width: 256, height: 256, category: "signs" },
   { name: "Wooden Sign", suffix: "_Sign_Small_Wood_C", width: 128, height: 128, category: "signs" },
@@ -45,7 +45,7 @@ export const PAINTING_TARGETS: PaintingTarget[] = [
   { name: "Metal Sign", suffix: "_Sign_Small_Metal_C", width: 128, height: 128, category: "signs" },
   { name: "Metal Billboard", suffix: "_Sign_Large_Metal_C", width: 256, height: 256, category: "signs" },
 
-  // Structures & Items
+  // Structures & Items (DO NOT MODIFY — confirmed working in-game)
   { name: "Single Flag", suffix: "_Flag_C", width: 256, height: 256, category: "structures" },
   { name: "Multi Panel Flag", suffix: "_FlagMultiPanel_C", width: 256, height: 384, category: "structures" },
   { name: "Shag Rug", suffix: "_Rug_C", width: 256, height: 256, category: "structures" },
@@ -54,18 +54,19 @@ export const PAINTING_TARGETS: PaintingTarget[] = [
   { name: "Shield", suffix: "_Shield_C", width: 128, height: 128, category: "structures" },
   { name: "Motorboat", suffix: "_Motorboat_C", width: 256, height: 256, category: "structures" },
 
-  // ===== Signs & Canvases =====
-  { name: "Painting Canvas", suffix: "_PaintingCanvas_C", width: 256, height: 256, category: "signs" },
-  { name: "War Map", suffix: "_WarMap_C", width: 256, height: 256, category: "signs" },
-  { name: "Wooden Sign", suffix: "_Sign_Small_Wood_C", width: 128, height: 128, category: "signs" },
+  // ===== Additional Signs =====
   { name: "Wooden Wall Sign", suffix: "_Sign_Wall_Wood_C", width: 256, height: 128, category: "signs" },
-  { name: "Wooden Billboard", suffix: "_Sign_Large_Wood_C", width: 256, height: 256, category: "signs" },
-  { name: "Metal Sign", suffix: "_Sign_Small_Metal_C", width: 128, height: 128, category: "signs" },
   { name: "Metal Wall Sign", suffix: "_Sign_Wall_Metal_C", width: 256, height: 128, category: "signs" },
-  { name: "Metal Billboard", suffix: "_Sign_Large_Metal_C", width: 256, height: 256, category: "signs" },
   { name: "Stone Sign", suffix: "_Sign_Small_Stone_C", width: 128, height: 128, category: "signs" },
   { name: "Adobe Sign", suffix: "_Sign_Small_Adobe_C", width: 128, height: 128, category: "signs" },
   { name: "Tek Sign", suffix: "_Sign_Small_Tek_C", width: 128, height: 128, category: "signs" },
+
+  // ===== Additional Structures =====
+  { name: "Bear Rug", suffix: "_BearRug_C", width: 256, height: 256, category: "structures" },
+  { name: "Catapult", suffix: "_Catapult_C", width: 256, height: 256, category: "structures" },
+  { name: "Ballista", suffix: "_Ballista_C", width: 256, height: 256, category: "structures" },
+  { name: "Cannon", suffix: "_Cannon_C", width: 256, height: 256, category: "structures" },
+  { name: "Stone Pillar", suffix: "_Pillar_Stone_C", width: 128, height: 256, category: "structures" },
 
   // ===== Structures & Items =====
   { name: "Single Flag", suffix: "_Flag_C", width: 256, height: 256, category: "structures" },
